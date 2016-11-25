@@ -5,10 +5,10 @@ package dwango.syntax
   * var isSchoolStarted: Boolean = falseという就学を開始しているかどうかという変数を利用して、
   * 1歳から6歳までの就学以前の子どもの場合に“幼児です”と出力し、
   * それ以外の場合は“幼児ではありません”と出力するコードを書いてみましょう。
-  *
+  *scala
   * Created by teradashoutarou on 2016/11/24.
   */
-class isSchoolStarted {
+object isSchoolStarted {
 
   def main(): Unit = {
     var age: Int = 5

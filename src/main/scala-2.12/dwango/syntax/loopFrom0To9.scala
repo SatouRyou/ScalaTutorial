@@ -7,9 +7,9 @@ package dwango.syntax
   *
   * Created by teradashoutarou on 2016/11/24.
   */
-class loopFrom0To9 {
+object loopFrom0To9 {
 
-  def loopFrom0To9(): Unit = {
+  def main(): Unit = {
     var i = 0
     do {
       print(0)
