@@ -10,7 +10,7 @@ package dwango.syntax
   */
 object isSchoolStarted {
 
-  def main(): Unit = {
+  def main( args: Array[String] ): Unit = {
     var age: Int = 5
     var isSchoolStarted: Boolean = false
 

@@ -9,7 +9,7 @@ package dwango.syntax
   */
 object loopFrom0To9 {
 
-  def main(): Unit = {
+  def main( args: Array[String] ): Unit = {
     var i = 0
     do {
       print(0)

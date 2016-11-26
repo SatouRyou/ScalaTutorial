@@ -14,7 +14,7 @@ package dwango.syntax
   */
 object Random5 {
 
-  def main(): Unit = {
+  def main( args: Array[String] ): Unit = {
 
     for (a <- 1 to 1000) {
       val char = new scala.util.Random(new java.security.SecureRandom()).alphanumeric.take(5).toList
