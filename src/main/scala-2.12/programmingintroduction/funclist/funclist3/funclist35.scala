@@ -7,5 +7,7 @@ package programmingintroduction.funclist.funclist3
   * Created by teradashoutarou on 2016/11/30.
   */
 object funclist35 {
-
+  def main(args: Array[String]): Unit = {
+    print( ( 1800 to 2100 ).filter( x => x.toBinaryString == x.toBinaryString.reverse ) )
+  }
 }
