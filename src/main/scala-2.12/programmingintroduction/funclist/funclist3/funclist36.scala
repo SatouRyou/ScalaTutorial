@@ -12,7 +12,7 @@ object funclist36 {
   }
 
   def isPrime(n: Int): Boolean = {
-    return ( 2 until n ).forall( n % _ == 0 )
+    return ( 2 until n ).forall( n % _ != 0 )
   }
 
   /**
